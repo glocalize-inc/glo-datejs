@@ -1,6 +1,6 @@
 {
   "name": "@glocalize-inc/glo-datejs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "모멘트 의존성 없는 최소한의 날짜 함수 모음",
   "author": "yungik@glocalizeinc.com",
   "private": false,
