@@ -42,6 +42,12 @@ export function getMondayAndSunday(p1: Date | number = 0): [Date, Date] {
   }
 }
 
+export function getFirstDateOfMonth(date: Date = new Date()): Date {
+  const firstDate = new Date(date);
+  firstDate.setDate(1);
+  return firstDate;
+}
+
 export function getLastDateOfMonth(date: Date = new Date()): Date {
   const lastDate = new Date(date);
   lastDate.setMonth(date.getMonth() + 1);
